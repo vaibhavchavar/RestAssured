@@ -17,7 +17,7 @@ import static org.hamcrest.Matchers.*;
 
 public class GetAndPostExamples {
 //	@Test
-	public void getTest() {
+	public void getTests() {
 		baseURI ="https://reqres.in/api";
 		given().
 		get("users?page=2").
