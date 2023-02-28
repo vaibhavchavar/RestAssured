@@ -54,6 +54,8 @@ public class SerializeTestWithSpecBuilder {
 		RequestSpecification req = new RequestSpecBuilder().setBaseUri("https://rahulshettyacademy.com").setContentType(ContentType.JSON)
 				.addQueryParam("key","qaclick123").build();
 		
+		//reusable methods for Restassured
+		
 		ResponseSpecification resspec = new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
 		
 		RequestSpecification res = given().spec(req)
