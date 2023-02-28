@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-15T10:50:56 IST" name="Default suite" finished-at="2023-01-15T10:50:59 IST" duration-ms="3426">
+  <suite started-at="2023-01-26T14:09:56 IST" name="Default suite" finished-at="2023-01-26T14:09:57 IST" duration-ms="1271">
     <groups>
     </groups>
-    <test started-at="2023-01-15T10:50:56 IST" name="Default test" finished-at="2023-01-15T10:50:59 IST" duration-ms="3426">
-      <class name="Test.SoapXML">
-        <test-method signature="soapxml()[pri:0, instance:Test.SoapXML@209da20d]" started-at="2023-01-15T10:50:56 IST" name="soapxml" finished-at="2023-01-15T10:50:59 IST" duration-ms="3391" status="PASS">
+    <test started-at="2023-01-26T14:09:56 IST" name="Default test" finished-at="2023-01-26T14:09:57 IST" duration-ms="1271">
+      <class name="Test2.dynamicpayloadTest">
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:Test2.dynamicpayloadTest@3ee37e5a]" started-at="2023-01-26T14:09:56 IST" name="addBook" data-provider="bookData" finished-at="2023-01-26T14:09:57 IST" duration-ms="1079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dfdsf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- soapxml -->
-      </class> <!-- Test.SoapXML -->
+        </test-method> <!-- addBook -->
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:Test2.dynamicpayloadTest@3ee37e5a]" started-at="2023-01-26T14:09:57 IST" name="addBook" data-provider="bookData" finished-at="2023-01-26T14:09:57 IST" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sdfsdg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:Test2.dynamicpayloadTest@3ee37e5a]" started-at="2023-01-26T14:09:57 IST" name="addBook" data-provider="bookData" finished-at="2023-01-26T14:09:57 IST" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wqer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+      </class> <!-- Test2.dynamicpayloadTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
